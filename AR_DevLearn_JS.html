@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript AR_DevLearn</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* Navigation Bar */
+        header{
+            background-color: #6d6d6d;
+            text-align: center;
+            padding: 40px;
+        }
+        nav{
+            background-color: black;
+            padding: 10px;
+        }
+        nav .primary_menu{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+        /* --------------------------- */
+        .container {
+            display: flex;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Prevent overflow */
+        }
+        /* Side Bar */
+        .sidebar{
+            background-color: #eaeaea;
+            width: 20%;
+            padding-left: 20px;
+            padding-top: 20px;
+            overflow-y: auto;
+        }
+        .sidebar ul{
+            padding-left: 20px ;
+            list-style-type: square;
+        }    
+        .content{
+            width: 80%;
+            padding: 20px;
+        }
+        .content p{
+            line-height: 1.5rem;
+        }
+        .content li{
+            line-height: 1.5rem;
+            margin-left: 20px ;
+        }
+        /* --------------------------- */
+        /* Footer */
+        footer{
+            background-color: black;
+            padding: 10px;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h2>AR DevLearn</h2>
+    </header>
+    <nav>
+        <a href="AR_DevLearn_Home" class="primary_menu">Home</a>
+        <a href="AR_DevLearn_Courses" class="primary_menu">Courses</a>
+        <a href="AR_DevLearn_Notes" class="primary_menu">Notes</a>
+        <a href="AR_DevLearn_Tutorials" class="primary_menu">Tutorails</a>
+        <a href="AR_DevLearn_Learning_HTML" class="primary_menu">Learning</a>
+        <a href="#" class="primary_menu">About Us</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <!-- Introduction -->
+                <h3>INTRODUCTION</h3>
+                <ul>
+                    <li><a href="">JS Introduction</a></li>
+                    <li><a href="">JS Execution</a></li>
+                    <li><a href="">Node.js Installation</a></li>
+                </ul>
+                <!-- Javascript Variables -->
+                <h3>JAVASCRIPT VARAIBLE</h3>
+                <ul>
+                    <li><a href="">What are Variables?</a></li>
+                    <li><a href="">Variable Naming Rules</a></li>
+                    <li><a href="">Primities and Objects</a></li>
+                    <li><a href="">Operators and Expressions</a></li>
+                    <li><a href="">var vs let vs const</a></li>
+                </ul>
+                <!-- Javascript Basics -->
+                <h3>JAVASCRIPT BASIC</h3>
+                <ul>
+                    <li><a href="">if else conditionals</a></li>
+                    <li><a href="">if else ladder</a></li>
+                    <li><a href="">Switch case</a></li>
+                    <li><a href="">Ternary Operator</a></li>
+                    <li><a href="">For Loops</a></li>
+                    <li><a href="">While Loop</a></li>
+                    <li><a href="">Functions</a></li>
+                </ul>
+                <!-- Javascript Objects -->
+                <h3>JAVASCRIPT OBJECTS</h3>
+                <ul>
+                    <li><a href="">Strings</a></li>
+                    <li><a href="">Arrays and Array</a></li>
+                    <li><a href="">Loops with Arrays</a></li>
+                    <li><a href="">Map, Filter and Reduce</a></li>
+                    <li><a href="">Date</a></li>
+                    <li><a href="">Math</a></li>
+                    <li><a href="">Number</a></li>
+                    <li><a href="">Boolean</a></li>
+                </ul>
+                <!-- DOM & BOM -->
+                <h3>DOM & BOM</h3>
+                <ul>
+                    <li><a href="">Window Object</a></li>
+                    <li><a href="">History Object</a></li>
+                    <li><a href="">Navigation Object</a></li>
+                    <li><a href="">Screen Object</a></li>
+                    <li><a href="">Document</a></li>
+                    <li><a href="">getElementbyid</a></li>
+                    <li><a href="">getElementsByClassName</a></li>
+                    <li><a href="">getElementsByName</a></li>
+                    <li><a href="">getElementsByTagName</a></li>
+                    <li><a href="">innerHTML</a></li>
+                    <li><a href="">outerHTML</a></li>
+                </ul>
+                <!-- OOPs -->
+                <h3>OOPs</h3>
+                <ul>
+                    <li><a href="">Class</a></li>
+                    <li><a href="">Objects</a></li>
+                    <li><a href="">Constructor</a></li>
+                    <li><a href="">Static Method</a></li>
+                    <li><a href="">Encapsulation</a></li>
+                    <li><a href="">Inheritance</a></li>
+                    <li><a href="">Polymorphism</a></li>
+                    <li><a href="">Abstraction</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <section>
+                    <h2>JS Introduction</h2>
+                    <p>Today, I am creating this JavaScript tutorial to provide you with a resource that will help you learn JavaScript. Also, you can use this tutorial as a reference later to lookup various concepts and code.</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="">Contact Us</a>
+        <a href="">Terms Of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+    </footer>
+</body>
+</html>

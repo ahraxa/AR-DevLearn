@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS AR_DevLearn</title>
+    <Style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* Navigation Bar */
+        header{
+            background-color: #6d6d6d;
+            text-align: center;
+            padding: 40px;
+        }
+        nav{
+            background-color: black;
+            padding: 10px;
+        }
+        nav .primary_menu{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+        /* --------------------------- */
+        .container {
+            display: flex;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Prevent overflow */
+        }
+        /* Side Bar */
+        .sidebar{
+            background-color: #eaeaea;
+            width: 20%;
+            padding-left: 20px;
+            padding-top: 20px;
+            overflow-y: auto;
+        }
+        .sidebar ul{
+            padding-left: 20px ;
+            list-style-type: square;
+        }    
+        .content{
+            width: 80%;
+            padding: 20px;
+        }
+        .content p{
+            line-height: 1.5rem;
+        }
+        .content li{
+            line-height: 1.5rem;
+            margin-left: 20px ;
+        }
+        /* --------------------------- */
+        /* Footer */
+        footer{
+            background-color: black;
+            padding: 10px;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+    </Style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h2>AR DevLearn</h2>
+    </header>
+    <nav>
+        <a href="AR_DevLearn_Home" class="primary_menu">Home</a>
+        <a href="AR_DevLearn_Courses" class="primary_menu">Courses</a>
+        <a href="AR_DevLearn_Notes" class="primary_menu">Notes</a>
+        <a href="AR_DevLearn_Tutorials" class="primary_menu">Tutorails</a>
+        <a href="AR_DevLearn_Learning_HTML" class="primary_menu">Learning</a>
+        <a href="#" class="primary_menu">About Us</a>
+    </nav>
+
+
+    <main>
+        <div class="container">
+            <!-- Side Bar CSS -->
+            <div class="sidebar">
+                <!-- Introduction & History -->
+                <h3>Introduction</h3>
+                <ul>
+                    <li><a href="#information&history">Information & History</a></li>
+                    <li><a href="#first_CSS_website">Your first CSS Website</a></li>
+                    <li><a href="">How CSS works?</a></li>
+                    <li><a href="">Syntax of CSS</a></li>
+                    <li><a href="">Ways to Add CSS</a></li>
+                    <li><a href="">CSS Selectors</a></li>
+                    <li><a href="">CSS Comments</a></li>
+                    <li><a href="">CSS Specificity</a></li>
+                </ul>
+                <!-- CSS Properties -->
+                 <h3>CSS Properties</h3>
+                 <ul>
+                    <li><a href="">CSS Colors</a></li>
+                    <li><a href="">CSS Backgrouds</a></li>
+                    <li><a href="">CSS Borders</a></li>
+                    <li><a href="">CSS Images</a></li>
+                    <li><a href="">CSS Video Embedding</a></li>
+                    <li><a href="">CSS Fonts</a></li>
+                    <li><a href="">CSS Test Styling</a></li>
+                    <li><a href="">CSS Box Model</a></li>
+                    <li><a href="">CSS Padding</a></li>
+                    <li><a href="">CSS Margin</a></li>
+                    <li><a href="">CSS Hover</a></li>
+                    <li><a href="">CSS Cursors</a></li>
+                    <li><a href="">CSS List Styles</a></li>
+                    <li><a href="">CSS Links</a></li>
+                    <li><a href="">CSS Combinators</a></li>
+                    <li><a href="">CSS Pseudo-Classes</a></li>
+                    <li><a href="">CSS Buttons</a></li>
+                    <li><a href="">CSS OVerflow</a></li>
+                    <li><a href="">CSS Float</a></li>
+                    <li><a href="">CSS !Important</a></li>
+                    <li><a href="">CSS Maths Functions</a></li>
+                    <li><a href="">CSS Size</a></li>
+                    <li><a href="">CSS Positioning</a></li>
+                    <li><a href="">CSS Z-Index</a></li>
+                    <li><a href="">CSS Forms</a></li>
+                    <li><a href="">CSS Navigation Bar</a></li>
+                 </ul>
+                 <!-- CSS Designing -->
+                <h3>CSS Designing</h3>
+                <ul>
+                    <li><a href="">CSS Display</a></li>
+                    <li><a href="">CSS FlexBox</a></li>
+                    <li><a href="">CSS Grid</a></li>
+                    <li><a href="">CSS MEdia Queries</a></li>
+                </ul>
+                <!-- CSS Advance Topics -->
+                <h3>CSS Advance Topics</h3>
+                <ul>
+                    <li><a href="">CSS 2D Transform</a></li>
+                    <li><a href="">CSS Transitions</a></li>
+                    <li><a href="">CSS Border Images</a></li>
+                    <li><a href="">CSS Gradients</a></li>
+                    <li><a href="">CSS Inherit</a></li>
+                    <li><a href="">CSS Shadows</a></li>
+                    <li><a href="">CSS ToolTop Text</a></li>
+                    <li><a href="">CSS Masking</a></li>
+                    <li><a href="">CSS Pagination</a></li>
+                    <li><a href="">CSS Media Queries Advance</a></li>
+                    <li><a href="">CSS Animations</a></li>
+                </ul>
+                <!-- CSS FAQs -->
+                <h3>CSS FAQs</h3>
+                <ul>
+                    <li>Questions</li>
+                </ul>
+            </div>
+            <!-- ----------------------------- -->
+            <!-- Content CSS -->
+            <div class="content">
+                <section>
+                    <!-- Information & History -->
+                    <h2 id="information&history">Information & History</h2>
+                    <p>Let's start this journey of learning CSS together. I'm Harry, the same guy from the <a href="#">ArDevLearn</a> YouTube channel. This tutorial will serve as a resource for students to learn CSS and use the code from these lessons as a reference. Without further ado, let's dive into learning CSS.</p><br>
+                    <!-- What is CSS -->
+                    <h2>What is CSS?</h2>
+                    <p>CSS stands for <b>Cascading Style Sheets.</b> It is a stylesheet language that is used to describe the visual presentation of a web page written in <b>HTML (Hypertext Markup Language).</b><br>HTML <b>creates the structure</b> of the page, while <b>CSS adds styling to that structure.</b>This tutorial assumes that you have prior knowledge of HTML. If that's not the case, you can follow <a href="">the HTML tutorial</a> first.</p><br>
+                    <!-- Why the word "cascade"? -->
+                    <h3>Why the word "cascade"?</h3>
+                    <p>The term "cascade" refers to the <b>priority scheme</b> determining which CSS rules are applied when multiple rules target an element. This scheme takes into account specificity and inheritance, ensuring that the most specific and latest rules are applied.</p><br>
+                    <!-- Why use CSS? -->
+                    <h2>Why use CSS?</h2>
+                    <p>CSS is used to provide styling to HTML elements, making web pages visually appealing and user-friendly. Consider the video below to understand how CSS can transform a webpage
+                
+                    Let us take this HTML page for example. Here is how it looks without CSS 
+                    </p><br>
+                    <!-- Analogy to Understand CSS -->
+                    <h2>Analogy to Understand CSS</h2>
+                    <p>Imagine reading a book with only plain text. It's quite dull, isn't it? Now picture a book enriched with different colors, fonts, and styles. That's what CSS does to a webpage.</p><br>
+                    <!-- How does CSS work? -->
+                    <h2>How does CSS work?</h2>
+                    <p>CSS operates by selecting HTML elements and applying styles to them. Styles dictate the appearance of elements on a webpage. You can target HTML elements, classes, or IDs, defining properties like colors, fonts, margins, etc.
+                    </p><br>
+                    <!-- Quick Follow-Up Task: -->
+                    <h2>Quick Follow-Up Task:</h2>
+                    <ul>
+                        <li>Right-click on the screen and select "Inspect" or press (Ctrl + Shift + C).</li>
+                        <li>Click on the arrow icon in the top-left corner of the inspection pane.</li>
+                        <li>Select elements on the page to toggle the CSS rules.</li>
+                    </ul><br>
+                    <!-- Key Features of CSS: -->
+                    <h2>Key Features of CSS:</h2>
+                    <ul>
+                        <li>Styles and layouts of web pages.</li>
+                        <li>Works alongside HTML and XML documents.</li>
+                        <li>Enables responsive design for different screen sizes.</li>
+                        <li>Supports interactive effects like hover states and animations.</li>
+                        <li>CSS is now modularized, with ongoing updates rather than version numbers.</li>
+                        <li>Allows reusability of the same rules across multiple HTML documents.</li>
+                    </ul><br>
+                    <!-- A Bit of History -->
+                    <h2>A Bit of History</h2>
+                    <p>CSS was created by Håkon Wium Lie to enhance the visual aspects of websites. Initially, websites were mainly used by researchers and lacked visual appeal. As websites became more widespread, the need for better design grew.</p><br>
+                </section>
+                <!-- Your first CSS website -->
+                <section>
+                    <h2 id="first_CSS_website">Your first CSS website</h2>
+                    <p>In this tutorial, we will focus on creating our first CSS website.</p>
+                    <ol>We will divide the tutorial into the following parts:
+                        <li>Setting up the environment.</li>
+                        <li>Creating an HTML page.</li>
+                        <li>Adding CSS to HTML.</li>
+                    </ol>
+                    <!-- Setting up the Environment -->
+                     <h2>Setting up the Environment</h2><br>
+                     <h3>Installing VS Code</h3>
+                     <ul>
+                        <li>Go to <a href="https://www.google.com/">Google</a> using your preferred browser.</li>
+                        <li>Type <a href="https://www.google.com/search?q=visual+studio+code+download">Visual Studio Code download</a> in the search bar.</li>
+                        <li>Click on download and follow the installation instructions for your OS.</li>
+                     </ul>
+                     <p>Here's a quick video showing the VS Code installation process:</p>
+                     <video src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-prerequisite/download-vscode.mp4" autoplay></video>
+                </section>
+                
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <a href="">Contact Us</a>
+        <a href="">Terms Of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* Navigation Bar */
+header{
+    background-color: #6d6d6d;
+    text-align: center;
+    padding: 40px;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav .primary_menu{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+ /* Home Courses Section */
+.courses{
+    text-align: center;
+    padding: 10px;
+}
+/* Home Study Material  */
+.study_material{
+    text-align: center;
+    padding: 10px;
+}
+/* Home Tutorails */
+.tutorials{
+    text-align: center;
+    padding: 10px;
+}
+/* Home Testimonials */
+.testimonails{
+    text-align: center;
+    padding: 10px;
+}
+
+/* -------------------------------------------- */
+/* Courses Page */
+.premium_course{
+    text-align: center;
+    padding: 20px;
+}
+
+/* --------------------------------------------- */
+/* Footer */
+footer{
+    background-color: black;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}

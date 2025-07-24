@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript AR_DevLearn</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* Navigation Bar */
+        header{
+            background-color: #6d6d6d;
+            text-align: center;
+            padding: 40px;
+        }
+        nav{
+            background-color: black;
+            padding: 10px;
+        }
+        nav .primary_menu{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+        /* --------------------------- */
+        .container {
+            display: flex;
+            height: 70vh; /* Full viewport height */
+            overflow: hidden; /* Prevent overflow */
+        }
+        /* Side Bar */
+        .sidebar{
+            background-color: #eaeaea;
+            width: 20%;
+            padding-left: 20px;
+            padding-top: 20px;
+            overflow-y: auto;
+        }
+        .sidebar ul{
+            padding-left: 20px ;
+            list-style-type: square;
+        }    
+        .content{
+            width: 80%;
+            padding: 20px;
+        }
+        .content p{
+            line-height: 1.5rem;
+        }
+        .content li{
+            line-height: 1.5rem;
+            margin-left: 20px ;
+        }
+        /* --------------------------- */
+        /* Footer */
+        footer{
+            background-color: black;
+            padding: 10px;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h2>AR DevLearn</h2>
+    </header>
+    <nav>
+        <a href="AR_DevLearn_Home" class="primary_menu">Home</a>
+        <a href="AR_DevLearn_Courses" class="primary_menu">Courses</a>
+        <a href="AR_DevLearn_Notes" class="primary_menu">Notes</a>
+        <a href="AR_DevLearn_Tutorials" class="primary_menu">Tutorails</a>
+        <a href="AR_DevLearn_Learning_HTML" class="primary_menu">Learning</a>
+        <a href="#" class="primary_menu">About Us</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <!-- Introduction -->
+                <h3>INTRODUCTION</h3>
+                <ul>
+                    <li><a href="">C Overview</a></li>
+                    <li><a href="">Getting Started with C</a></li>
+                    <li><a href="">Basic Structure & Syntax</a></li>
+                    <li><a href="">C Comments</a></li>
+                    <li><a href="">C Variables</a></li>
+                </ul>
+                <!-- C Data Types, Operators & User I/O -->
+                <h3>C Data Types, Operators & User I/O</h3>
+                <ul>
+                    <li><a href="">C Data Types & Constants</a></li>
+                    <li><a href="">C Operators</a></li>
+                    <li><a href="">Format Specifiers & Excape Sequences</a></li>
+                    <li><a href="">User Input/Output</a></li>
+                </ul>
+                <!-- Conditional Statemenets -->
+                <h3>Conditional Statemenets</h3>
+                <ul>
+                    <li><a href="">C if...else Statemenets</a></li>
+                    <li><a href="">Switch Case Statemenets</a></li>
+                </ul>
+                <!-- Iteration Statements -->
+                <h3>Iteration Statements</h3>
+                <ul>
+                    <li><a href="">C Loops</a></li>
+                    <li><a href="">while Loop</a></li>
+                    <li><a href="">do-while Loop</a></li>
+                    <li><a href="">for Loop</a></li>
+                    <li><a href="">c Break/Continue</a></li>
+                </ul>
+                <!-- Arrays -->
+                <h3>Arrays</h3>
+                <ul>
+                    <li><a href="">Array Basic</a></li>
+                    <li><a href="">Array Operations</a></li>
+                </ul>
+                <!-- Strings -->
+                <h3>Strings</h3>
+                <ul>
+                    <li><a href="">String Basics</a></li>
+                    <li><a href="">String Functions</a></li>
+                </ul>
+                <!-- C Functions -->
+                <h3> C Functions </h3>
+                <ul>
+                    <li><a href="">Functions Basic</a></li>
+                    <li><a href="">Functions Paramenters</a></li>
+                    <li><a href="">Functions Declaration</a></li>
+                    <li><a href="">Recursive Functions</a></li>
+                </ul>
+                <!-- C Pointers -->
+                <h3>C Pointers</h3>
+                <ul>
+                    <li><a href="">C Pointers</a></li>
+                    <li><a href="">Operations on Pointers</a></li>
+                    <li><a href="">C VOID Pointer</a></li>
+                    <li><a href="">C NULL Pointer</a></li>
+                    <li><a href="">Dangling Pointer</a></li>
+                    <li><a href="">Wild Pointer</a></li>
+                </ul>
+                <!-- C Memory Management -->
+                <h3>C Memory Management</h3>
+                <ul>
+                    <li><a href="">C Static Variable</a></li>
+                    <li><a href="">C Memory Layout</a></li>
+                    <li><a href="">C Memory Allocation</a></li>
+                </ul>
+                <!-- C Structures & Unions -->
+                <h3>C Structures & Unions</h3>
+                <ul>
+                    <li><a href="">C Structures</a></li>
+                    <li><a href="">C Unions</a></li>
+                    <li><a href="">C Typedef</a></li>
+                </ul>
+                <!-- C File Handling Basics -->
+                <h3>C File Handling </h3>
+                <ul>
+                    <li><a href="">File Handling Basics</a></li>
+                    <li><a href="">Operations on Files</a></li>
+                    <li><a href="">Files I/O</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <section>
+                    <h2><b>C Overview</b></h2><br>
+                    <h2>What is C?</h2>
+                    <ul>
+                        <li>Since the late 19th century, C has been a popular programming language for general-purpose use.</li>
+                        <li>C language was developed by Dennis M. Ritchie at bell laboratory in early 1970s</li>
+                        <li>Its applications are very diverse. It ranges from developing operating systems to databases and all.⁣ It is system programming language used to do low level programming (e.g., driver or kernel)</li>
+                        <li>Even if it’s old, it is still a very popular programming language.⁣</li>
+                        <li>As the whole UNIX operating system was written in C, it has a strong association with the operating system⁣</li>
+                        <li>C has also been used widely while creating iOS and Android kernels.⁣</li>
+                        <li>MySQL database is written using C.⁣</li>
+                        <li>Ruby and Pearl are mostly written using C.⁣</li>
+                        <li>Most part of Apache and NGINX is written using C.⁣</li>
+                        <li>Embedded Systems are created using C⁣</li>
+                    </ul>
+
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <a href="">Contact Us</a>
+        <a href="">Terms Of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+    </footer>
+</body>
+</html>

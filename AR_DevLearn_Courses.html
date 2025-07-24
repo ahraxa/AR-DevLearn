@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR DevLearn Courses</title>
+    <link rel="stylesheet" href="AR_DevLearn.css">
+            <style>
+                .courses_heading{
+                    text-align: center;
+                    padding: 15px;
+                }
+                .premium_courses {
+                    border: 2px solid black;
+                    display: grid;
+                    grid-template-columns: 32.5% 32.5% 32.5% ;
+                    column-gap: 10px;
+                    row-gap: 10px;
+                    padding: 10px 20px;
+                }
+                .premium_courses_subset{
+                    border: 1px solid black;
+                    text-align: left;
+                    padding: 10px;
+                    display: grid;
+                    row-gap: 10px;
+                }
+                .premium_courses_subset img{
+                    width: 100%;
+                }
+                .premium_courses_subset button{
+                    height: 50px;
+                    background-color: #6b6b6b;
+                    color: white;
+                    
+                }
+
+                .more_courses {
+                    border: 2px solid black;
+                    display: grid;
+                    grid-template-columns: 32.5% 32.5% 32.5% ;
+                    column-gap: 10px;
+                    row-gap: 10px;
+                    padding: 10px 20px;
+                }
+                .more_courses_subset{
+                    border: 1px solid black;
+                    text-align: left;
+                    padding: 10px;
+                    display: grid;
+                    row-gap: 10px;
+                }
+                .more_courses_subset img{
+                    width: 100%;
+                }
+                .more_courses_subset button{
+                    height: 50px;
+                    background-color: #6b6b6b;
+                    color: white;
+                    
+                }
+            
+            </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h2>AR DevLearn</h2>
+    </header>
+    <nav>
+        <a href="AR_DevLearn_Home" class="primary_menu">Home</a>
+        <a href="AR_DevLearn_Courses" class="primary_menu">Courses</a>
+        <a href="AR_DevLearn_Notes" class="primary_menu">Notes</a>
+        <a href="AR_DevLearn_Tutorials" class="primary_menu">Tutorails</a>
+        <a href="AR_DevLearn_Learning_HTML" class="primary_menu">Learning</a>
+        <a href="#" class="primary_menu">About Us</a>
+    </nav>
+    <main>
+        <!-- Premium Course -->
+        <h2 class="courses_heading">Premium Course</h2>
+        <div class="premium_courses">
+            <div class="premium_courses_subset">
+                <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/videoseries/ultimate-js-tutorial-hindi-1/JS-Thumb.jpg" alt="">
+                <span>FREE COURSE</span>
+                <h5>Ultimate JavaScript Course</h5>
+                <p>This latest JavaScript course comes with premium curriculum that covers everything from basics to advance. On top of that, you will get my handwritten notes of JS for completely free. What are you waiting for? Just Enroll</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="premium_courses_subset">
+                <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/videoseries/sanity-tutorial-in-hindi-1/Sanity-Thumb.jpg" alt="">
+                <span>FREE COURSE</span>
+                <h5>Sanity.io Tutorials in Hindi</h5>
+                <p>Sanity.io is the platform for structured content. This course will not only cover Sanity from starting to the end, but it has projects for hands-on experience.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="premium_courses_subset">
+                <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/videoseries/strapi-tutorial-in-hindi-1/Strapi-Thumb.jpg" alt="">
+                <span>FREE COURSE</span>
+                <h5>Strapi Tutorial For Beginners</h5>
+                <p>This course contains everything that you should know about Strapi. It is an open-source, Headless CMS that saves lot of time for developers by giving them freedom to use their favorite tools and frameworks</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="premium_courses_subset">
+                <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/videoseries/python-100-days-of-code-1/7wnove7K-ZQ-HD.jpg" alt="">
+                <span>FREE COURSE</span>
+                <h5>Python Tutorials - 100 Days of Code</h5>
+                <p> Python is one of the most demanded  programming languages in the job market. Surprisingly, it is equally easy to learn and master Python. Let's commit our 100 days of code to python!</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="premium_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/e1c843acc10c59c60504cd438a082c6d.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Tailwind Course In Hindi</h5>
+                <p>Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="premium_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/090fefe24d23d47584f6ddc7eb5a241e.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>React Js Tutorials For Beginners</h5>
+                <p>React is a free and open-source front-end JavaScript library. This series will cover React from starting to the end. We will learn react from the ground up!</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="premium_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/62f60049963012281edcc77dd2ec031b.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Next.js Tutorials For Beginners</h5>
+                <p>Complete Next.js Course by CodeWithHarry in Hindi - Learn Next.js from Scratch.</p>
+                <button>Start Watching</button>
+            </div>
+        </div> 
+        <!-- More Courses -->
+        <h2 class="courses_heading">More Courses</h2>
+        <div class="more_courses">
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/c02d6cddcae8d68f4dc594a1f6c851d2.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>General Python Errors</h5>
+                <p>Being a coder, I can understand the pain and excitement while finding a bug or error in a code. This course contains some of the most famous or common errors in the Python language.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/d9800649e08234d24d76cb4698844aa1.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>C Language Practice Programs</h5>
+                <p>This series contains programs for you to practice C Programming and related concepts. It has videos that will provide you with a proper explanation of the program and its logic.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/638637414b878e840719ef217bfdfb24.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Python Game Development Tuts</h5>
+                <p>If you're interested in game development, this course is for you. It will lead you through all the basic game development concepts and will give you an initial boost.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/288cb343ae0bc71833e4ed2304ef5b73.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>OOPS Using Python Programming</h5>
+                <p>If you don't know about Object Oriented Programming (OOP) Paradigm, then this course is for you. In this you'll learn about objects, classes and much more in Python language.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/ee73fdc0c096dc971978e0887853595a.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Web Dev Using Flask and Python</h5>
+                <p>This course will teach you everything you need to know about web development using Flask. It will lead you through each and every concept of Flask and will give you a good initial start.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/04516e12269f92c93d5857c511ba7fb1.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Basic Python Programs With Code</h5>
+                <p>This series contains basic Python programs. It's a concise and precise course, so if you have a couple of minutes or an hour, just get started. This course will surely add some value.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/157872dd5dc5fe6b49cc48f29a30a772.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Coding Discussion With Harry</h5>
+                <p>Interested in general technology (coding) topics? If yes, then you must checkout this series, here you'll get tonnes of videos regarding most asked questions and other general questions.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/9d95005147356658c81eadf3386607c0.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Learn In One Video</h5>
+                <p>Don't have much time to watch the whole course's playlist? Don't worry, we've got you covered. This series contains one-shot videos of popular technologies, search for your required stack, and you're ready to get into it.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <span>FREE COURSE</span>
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/68ae8da41f7d66599dc95c0885759cb6.png" alt="">
+                <h5>C++ Tutorials For Beginners</h5>
+                <p>This course contains all the concepts and exercises of the C++ language. If you're a mere beginner, you can start your coding journey with this course and ace your exams.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/ff3e8ac2e1e65f9940260b30461d3c13.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Python Django Tutorials For Beginners</h5>
+                <p>Django is a Python-based free and open-source web framework. If you already know Python and want to try web development, you can go with Django.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/c60b26139e9868b92d6ada1cdf7810cf.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Web Dev Tutorials For Beginners</h5>
+                <p>This is one of my favorite courses. In this series, you'll learn about HTML, CSS, JavaScript, and everything needed to be a job-ready web developer. Just hop on, man.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/45f2c8ae4ba61cbf76d8f6d64c182359.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Python Tutorials For Absolute Beginners</h5>
+                <p>This is one of the most-watched courses on this channel. If you want to create projects as early as possible, then this course is for you. You'll get dozen of projects in this course.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/e6f7ca4e6ac6deb87658f1d891128085.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Android Development Tutorials</h5>
+                <p>Android Development is one of the booming career options nowadays, and many people are learning Android because it feels so good to create own app. You can also grab this opportunity by enrolling in this course.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/2aefee3112fe9273f4d7d13541ab7094.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Java Tutorials For Beginners</h5>
+                <p>If you don't know programming and want to start your career by learning Java as your first language, you can start with this course as it is for absolute beginners.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/bcbd66927239e25555ed8ce2385b8879.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>C Language Tutorials For Beginners</h5>
+                <p>Even if you don't know the ABC of coding, start this course, and I can assure you that you'll be an intermediate-level coder after completion. Get started with C language.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/5286f40260e65257448301d19d2d8935.jpg" alt="">
+                <span>FREE COURSE</span>
+                <h5>Data Structures and Algorithms Course</h5>
+                <p>Data Structure and Algorithm is one of the most crucial things to learn. This course will give you a complete understanding of Data Structure and its implementation.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/cc52fae1bb5de526a1690997c0b6f8a1.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>JavaScript Tutorials For Beginners</h5>
+                <p>JavaScript is an essential element for the web developers. If you want to take your web development journey one step ahead then you enroll in this course.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/9bff268ac2e0dc20f420b526087fc4a1.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>PHP Tutorials For Beginners</h5>
+                <p>PHP is a general-purpose scripting language geared towards web development. This course will give you a complete and proper understanding of PHP concepts.</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/0cc70fb920f432f8f4c479330c7a41e0.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Git and GitHub Tutorials For Beginners</h5>
+                <p>If you're serious about coding and want to make a career out of it, then do learn Git and GitHub because it is something that you'll use at every phase of your job.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/0b409e41bed725a3e3fc684602296c31.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Intermediate Python Tutorials</h5>
+                <p>Wanna take your Python skills to the next level? This course is what you all need. It contains all the advanced concepts of the Python language. What??? Just tap on the "Start Watching" button to get started.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/d3c4ddaaa6d7ac69f590baeba279e806.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Data Science and Big Data Tutorials</h5>
+                <p>This course will give you a gist of Data Science and Big Data. I'm sure you must have heard about Data Scientist. This series contains the content to become one of them.</p>
+                <button>Start Watching</button>
+            </div>
+
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/488c39e3286b452d8a0b30de80257f81.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>ML Tutorials For Beginners</h5>
+                <p>Machine Learning is one of the exciting topics nowadays. And if you want to get a glimpse of ML, don't think twice. Just get started with this course.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/1f38ad63bfac3c937799a91322a48b73.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Complete Git Tutorials For Beginners</h5>
+                <p>If you're serious about coding and want to make a career out of it, then do learn Git and GitHub. This is the updated course of Git and GitHub For Beginners.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/e5df82b9c1a91d57aedcea1af1df7bdc.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Python GUI Tkinter Tutorials</h5>
+                <p>Console output is annoying sometimes, isn't it? That's why to get rid of the console, you can create GUI programs, and this is the course for you to start with. "Spill some colors in your program."</p>
+                <button>Start Watching</button>
+            </div>
+
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/d4c53ce89929c4dc6671f724042c481d.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Python Practice Program Tuts</h5>
+                <p>This series contains some of the exciting Python programs that one must try. You'll also get a proper explanation of the code. So, get started with this course to practice Python.</p>
+                <button>Start Watching</button>
+            </div>
+            <div class="more_courses_subset">
+                <img src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/0c9fbb82efe5437883daf3e96ab77e10.png" alt="">
+                <span>FREE COURSE</span>
+                <h5>Realtime PHP Chatroom Tutorials</h5>
+                <p>This is one of the best applications of PHP and Jquery. In this series, we've developed a real-time chatroom, so if you're someone who likes project-based learning, this is for you.</p>
+                <button>Start Watching</button>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <a href="">Contact Us</a>
+        <a href="">Terms Of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+    </footer>
+</body>
+</html>

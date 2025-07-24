@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMTL AR_DevLearn</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        /* Navigation Bar */
+        header{
+            background-color: #6d6d6d;
+            text-align: center;
+            padding: 40px;
+        }
+        nav{
+            background-color: black;
+            padding: 10px;
+        }
+        nav .primary_menu{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+        /*--------------------------------------*/
+        .container {
+            display: flex;
+            height: 70vh; /* Full viewport height */
+            overflow: hidden; /* Prevent overflow */
+        }
+        /* Side Bar */
+        .sidebar{
+            background-color: #eaeaea;
+            width: 20%;
+            padding-left: 20px;
+            padding-top: 20px;
+            overflow-y: auto;
+        }
+        .sidebar ul{
+            padding-left: 20px ;
+            list-style-type: square;
+        }    
+        .content{
+            width: 80%;
+            padding: 20px;
+        }
+        .content p{
+            line-height: 1.5rem;
+        }
+        .content li{
+            line-height: 1.5rem;
+            margin-left: 20px ;
+        }
+        /*--------------------------------------*/
+
+
+        /* Footer */
+        footer{
+            background-color: black;
+            padding: 10px;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <h2>AR DevLearn</h2>
+    </header>
+    <nav>
+        <a href="AR_DevLearn_Home" class="primary_menu">Home</a>
+        <a href="AR_DevLearn_Courses" class="primary_menu">Courses</a>
+        <a href="AR_DevLearn_Notes" class="primary_menu">Notes</a>
+        <a href="AR_DevLearn_Tutorials" class="primary_menu">Tutorails</a>
+        <a href="AR_DevLearn_Learning_HTML" class="primary_menu">Learning</a>
+        <a href="#" class="primary_menu">About Us</a>
+    </nav>
+
+
+
+    <main>
+        <div class="container">
+            <!-- Side Bar -->
+            <div class="sidebar">
+                <!-- INTRODUCTION -->
+                <h3>INTRODUCTION</h3>
+                <ul >
+                    <li><a href="#introduction">HTML Introduction</a></li>
+                    <li><a href="#working">HTML Working</a></li>
+                    <li><a href="#installation">HTML Installation</a></li>
+                    <li><a href="#execution">HTML Execution</a></li>
+                    <li><a href="#structure">HTML Page Structure</a></li>
+                    <li><a href="#tags">HTML Tags</a></li>
+                    <li><a href="#elements">HTML ELements</a></li>
+                    <li><a href="#attributes">HTML Attributes</a></li>
+                    <li><a href="#comments">HTML Comments</a></li>
+                    <li><a href="#id_classes">HTML Id & Classes</a></li>
+                </ul>
+                <!-- HTML BASIC TAGS -->
+                <h3>HTML BASIC TAGS</h3>
+                <ul>
+                    <li><a href="#skeletal">Skeletal Tags</a></li>
+                    <li><a href="#heading">Heading Tags</a></li>
+                    <li><a href="#paragraph">Paragraph Tag</a></li>
+                    <li><a href="#horizontal_line">Horizontal Line Tag</a></li>
+                    <li><a href="#line_break">Line Break Tag</a></li>
+                    <li><a href="#anchor">Anchor Tag</a></li>
+                    <li><a href="#image">Image Tag</a></li>
+                    <li><a href="#pre">Pre Tag</a></li>
+                </ul>
+                <!-- ELEMENTS -->
+                <h3>INLINE & BLOCK <br>ELEMENTS</h3>
+                <ul>
+                    <li><a href="#inline">HTML Inline Elements</a></li>
+                    <li><a href="#block">HTML Block Elements</a></li>
+                </ul>
+                <!-- HTML LISTS -->
+                <h3>HTML LISTS</h3>
+                <ul>
+                    <li><a href="#lists">HTML Lists</a></li>
+                    <li><a href="#orderd">HTML Ordered List</a></li>
+                    <li><a href="#unordered">HTML Unordered List</a></li>
+                    <li><a href="#definition">HTML Definition Lists</a></li>
+                </ul> 
+                <!-- HTML TABLES -->
+                <h3>HTML TABLES</h3>
+                <ul>
+                    <li><a href="#tables">HTML Tables</a></li>
+                    <li><a href="#more_tables">More on Tables</a></li>
+                </ul>
+                <!-- HTML FORMS -->
+                <h3>HTML FORMS</h3>
+                <ul>
+                    <li><a href="#forms">Introduction to HTML Forms</a></li>
+                    <li><a href="#input_type">HTML Input Types</a></li>
+                    <li><a href="#testare_select">Textarea & Select</a></li>
+                    <li><a href="#more_forms">More on Forms</a></li>
+                </ul>
+                <!-- Head Elements -->
+                <h3>Head Elements</h3>
+                <ul>
+                    <li><a href="#meta">HTML Meta Tags</a></li>
+                    <li><a href="#link_script">Link & Script Tags</a></li>
+                </ul>
+                <!-- HTML Media -->
+                <ul>
+                    <li><a href="#video_audio">Video & Audio Tags</a></li>
+                    <li><a href="#svg">SVG in HTML</a></li>
+                    <li><a href="#iframes">Iframes in HTML</a></li>
+                </ul>
+                <!-- Miscellaneous Tags -->
+                <h3>Miscellaneous Tags</h3>
+                <ul>
+                    <li><a href="#code">HTML Code Tag</a></li>
+                    <li><a href="#sematic">HTML Semantic Tags</a></li>
+                    <li><a href="#canvas">HTML Canvas</a></li>
+                    <li><a href="#global">HTML Global Attributes</a></li>
+                    <li><a href="#entities">HTML Entities</a></li>
+                    <li><a href="#quotation">HTML Quotation Tag</a></li>
+                    <li><a href="#obsolete">Obsolete HTML Tags</a></li>
+                    <li><a href="#character">Character Sets</a></li>
+                </ul>
+            </div>
+            <!-- Main Page -->
+            <div class="content">
+                <div>
+                    <h2 id="introduction">HTML Introduction</h2>
+                    <p>
+                        Today, I'm writing this tutorial to create a resource that will help you learn HTML in less than 30 days. Here's a recommended timeline for learning HTML, based on your educational background:
+                        <ul>
+                            <li>High School students and younger: Around 25 days</li>
+                            <li>Those beyond High School: Around 20 days</li>
+                            <li>College students and above: Around 10-20 days</li>
+                        </ul> 
+                        You may be wondering why I'm discussing these timelines. It's important for me to set expectations before you start your journey of learning html with me. My name is Ahmed (the same <a href="#">ARDevLearn</a>guy from YouTube), and today I'm writing this comprehensive HTML tutorial for all of you. Let's jump right into HTML!
+                    </p><br>
+
+                    <h2>What is HTML?</h2>
+                    <p>
+                        HTML (HyperText Markup Language) was created by Tim Berners-Lee in 1991 as a standard for creating web pages. It's a markup language used to structure content on the web, defining elements like headings, paragraphs, links, and images. HTML forms the backbone of web content. In layman's terms, HTML is like the skeleton of a website. It's a set of instructions that tells a web browser how to display text, images, videos, and other elements on a webpage. Think of it as the building blocks that create the structure and look of a website, similar to how bricks and mortar are used to build a house. 
+                        <ul>In a nutshell:
+                            <li>HTML is the language of the web, used to create websites.</li>
+                            <li>HTML defines the barebone structure or layout of web pages that we see on the Internet.</li>
+                            <li>HTML consists of a set of tags contained within an HTML document, and the associated files typically have either a ".html" or ".htm" extension.</li>
+                            <li>There are several versions of HTML, with HTML5 being the most recent version.</li>
+                        </ul>
+                    </p><br>
+
+                    <h2>Features of HTML</h2>
+                    <ul>
+                        <li>It is platform-independent. For example, Chrome displays the same pages identically across different operating systems such as Mac, Linux, and Windows.</li>
+                        <li>Images, videos, and audio can be added to a web page (For example - YouTube shows videos on their website)</li>
+                        <li>HTML is a markup language and not a programming language.</li>
+                        <li>It can be integrated with other languages like CSS, JavaScript, etc. to show interactive (or dynamic) web pages</li>
+                    </ul><br>
+
+                    <h2>Why the Term HyperText & Markup Language?</h2>
+                    <p>The term 'Hypertext Markup Language' is composed of two main words: 'hypertext' and 'markup language.' 'Hypertext' refers to the linking of text with other documents, while 'markup language' denotes a language that utilizes a specific set of tags.Thus, HTML is the practice of displaying text, graphics, audio, video etc. in a certain way using special tags.
+                    Note: Tags are meaningful texts enclosed in angle braces, like '<...>'. For example, the '<head>' tag. Each tag has a unique meaning and significance in building an HTML page, and it can influence the web page in various ways.</p><br>
+                    
+                    <h2>Quick Exercise:</h2>
+                    <p>
+                        Open a webpage of your choice, right-click on the browser, and select 'View Page Source,' and then you will see the HTML code for that page. <br>
+                        This is the code that the server sent to display the page you're currently viewing. In this tutorial, we'll learn how to write this type of code using HTML.
+                    </p><br>
+
+                    <h2>A beautiful analogy to understand HTML, CSS, and JavaScript:</h2>
+                    <center>
+                    <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/html-home/html-car-example.png" alt="" width="60%"></center>
+                    <p>
+                        In building a webpage, think of HTML, CSS, and JavaScript as different parts of a car. HTML is like the car's skeleton, forming the basic structure and frame. CSS adds the paint and finishing touches, making the car look appealing with color, style, and design. JavaScript is similar to the engine and mechanical parts, infusing the car with functionality, movement, and interactive features. Similarly, when developing a website, HTML lays out the structure, CSS enhances its visual appeal, and JavaScript provides interactivity and dynamic content
+                    </p><br>
+
+                    <h2>History of HTML:</h2>
+                    <ul>
+                        <li>In 1989, Tim Berners-Lee established the World Wide Web (www), and in 1991, he created the first version of HTML</li>
+                        <li>From 1995 to 1997, further work was done to develop and refine different versions of HTML.</li>
+                        <li>In 1999, a committee was organized that standardized HTML 4.0, a version still used by many today.</li>
+                        <li>The latest and most stable version of HTML is 5, also known as HTML5.</li>
+                        <p>
+                            Feel free to read more history of HTML here on the <a href="https://en.wikipedia.org/wiki/HTML#:~:text=HTML%20version%20timeline">HTML Wikipedia page</a>but I will move ahead and cover important aspects of HTML. <br>In the next tutorial, we'll continue our journey and understand how websites work
+                        </p>
+                    </ul>
+                </div>
+                <!-- ------------------- -->
+                <!-- HTML Working -->
+                <div>
+                <h2 id="working">HTML Working </h2>
+                <p>You must have heard of frontend and backend. Frontend refers to the visible part of a website or app that users interact with, like the tables, images, and buttons. It's built using languages like HTML, CSS, and JavaScript. The backend, on the other hand, handles behind-the-scenes operations like storing and processing data when users interact with the frontend. It uses languages like Python, Ruby, and Java. In essence, frontend is what users see, while backend manages the functionality.</p><br>
+
+                <h2>Hoe do websites work?</h2>
+                <p>When we want to access any information on the internet, we search for it using a  web browser. The web browser retrieves the content from web servers, where it is stored in the form of HTML document. 
+                <center><br>
+                <img src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/tutorial/how-html-works/how%20html%20homeworks.png" width="60%" alt="Waiting..."></center><br>
+                An HTML document is created by writing code with specific tags in a code editor of your choice. The document is then saved with the '.html' extension. Once saved, the browser interprets the HTML document, reads it, and renders the web page.</p> <br>
+                <h2>What is a Web Browser?</h2>
+                <p>A web browser is a program that understands HTML tags and renders them in a human-readable format that is easily viewable by people visiting the website. Developers write code in HTML because it's a straightforward way to instruct the web browser on what to display. In the next section, I'll show you how to set up VS Code for writing your own HTML code and rendering it in a web browser.</p><br>
+                <h2>What is an HTML Document?</h2>
+                <p>An HTML document is a text document saved with the '.html' or '.htm' extension, containing text and specific tags enclosed in '< >'. These tags provide the necessary instructions for configuring the web page. The tags themselves are standardized and fixed. The structure of an HTML document will be explained later in this HTML tutorial.</p>
+                <h2>What is a Renderd Page:</h2>
+                <p>The rendered page is the output screen of our HTML Document which is the page displayed on the browser.</p><br>
+                <h2>How does a basic website work?</h2>
+                <ul>
+                    <li>Web Browser(client) requests websites like <a href="#">www.ardevlearn.com</a> from the web server.</li>
+                    <li>Web server in return sends HTML, CSS, and JavaScript files to it.</li>
+                    <li>HTML, CSS, and JavaScript files are parsed by a web browser which is responsible for showing you a beautiful website.</li>
+                </ul><br>
+                <h2>Hoe does a browser work?</h2>
+                <p>A web browser plays a crucial role in parsing and rendering HTML code to the client. A web browser is a complex program that performs many tasks behind the scenes. Here's a summary of how it works:
+                <ul>
+                    <li>A browser is an application that reads HTML documents and displays them as web pages. Browsers can't access the content directly from where it's stored; this is where servers come into play.</li>
+                    <li>A server acts as an intermediary, listening to  <a href="#">browser</a> requests and fulfilling them by delivering the HTML document to the browser.</li>
+                    <li>Web browsers perform two main tasks: parsing and rendering.</li>
+                    <li>During the parsing stage, the browser receives raw bytes, which are converted into characters. These characters are then converted into tokens, which in turn are transformed into nodes. These nodes are organized into a tree-like data structure known as the DOM (Document Object Model).</li>
+                    <li>Once the DOM tree is constructed, the browser moves on to the rendering stage. At this point, each node in the DOM tree is rendered and displayed on the screen.</li>
+                </ul>
+                Dont worry about how browser exactly works just yet. Rather focus on learning HTML. In the next tuotrial we will install VS Code and some extensions for writing our HTML code. </p>
+                </div>
+            </div>
+            <!-- --------------------- -->
+            <!-- HTML Installation -->
+
+
+        </div>
+    </main>
+    
+
+
+
+    <footer>
+        <a href="">Contact Us</a>
+        <a href="">Terms Of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+    </footer>
+</body>
+</html>
